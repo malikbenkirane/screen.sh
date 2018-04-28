@@ -8,12 +8,14 @@
 
 screen() {
     local args="$@"
-    if [ -z "$args" -o "$args"="ls" ]; then
+    if [ -z "$args" -o "$args" = "ls" ]; then
         command screen -ls
     elif [ -z "$2" ]; then
-        if command screen -R "$1"; then
-            return 
+        echo Tried to rattach screen..
+        if command screen -rd "$1"; then
+            return
         else
+            echo (fails) Invoked new screen
             command screen -S "$1"
         fi
     else

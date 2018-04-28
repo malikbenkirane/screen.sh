@@ -1,12 +1,12 @@
 screen.sh
 =========
 
-Usage
------
+Licence: MIT (Licence)
+
+Usage:
+------
 Source Me.
 
-AUTHOR: Malik BEN KIRANE <FREE.MALIKBENKIRANE@GMAIL.COM>
-Licence: MIT (Licence)
 
 Summary:
 --------
@@ -17,3 +17,17 @@ Summary:
   @ reattach a session with this name
 - more than one argument:
   @ normal behaviour
+
+
+--------------------------------------------------------------------------------  
+TODO:
+-----
+- zsh autocomplete (perhaps fish and bash)
+
+
+--------------------------------------------------------------------------------  
+# Me:
+
+Malik BEN KIRANE
+[(email me)](mailto:feeder.malikbenkirane@gmail.com)
+<br>_Abroad computer science student (Paris, France)._
